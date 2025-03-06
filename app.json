@@ -9,14 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.sajanidhimal.SmartFitApp"
+      "package": "com.sajanidhimal.SmartFitApp",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +41,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "57667de8-5a35-404b-bd39-2ac5d10ba2c3"
+      }
+    },
+    "owner": "sajanidhimal",
+    "updates": {
+      "url": "https://u.expo.dev/57667de8-5a35-404b-bd39-2ac5d10ba2c3"
     }
   }
 }
